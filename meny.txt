@@ -1,0 +1,14 @@
+        <div class="topnav">
+		  
+			<a href="index.php" class="active">LEGODATABAS</a>
+  
+				<div id="myLinks">
+					
+					<a href="Help.php">Help</a>
+					<a href="AboutUs.php">About Us</a>
+				</div> <!--href="javascript:void(0);"-->
+				
+				<a class="meny" onclick="myFunction()">	
+					<img src="hamburger.png" alt="">
+				</a>
+		</div>

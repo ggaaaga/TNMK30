@@ -1,0 +1,8 @@
+		<div class = "search">
+		
+			<form action= "sokresultat.php" method="GET">
+			<input type="text" class="ftext" name= "ftext" placeholder="Search LEGO-set...">
+			<input type="submit" id= "searchbutton" value="🔎" >
+			</form>
+			
+		</div>

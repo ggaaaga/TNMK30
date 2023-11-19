@@ -1,0 +1,180 @@
+/* Grupp 14
+Uppgift 1
+
+Gayathri Naranath (gayna875)
+Amar Beganovic (amabe923)
+Todel Touma (todto213)
+Filip Silversten Wärn (filsi640) */
+
+body{
+	background-color:#e52522;
+	font-family: Arial, sans-serif;
+}
+
+/*Search*/
+.searchMain {
+	position: absolute;
+	top:45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#searchbutton {
+	padding: 0.4vw;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left:0.5vw;
+	margin-right:0.5vw;
+	margin-top:0.25vw;	
+	background-color:#049CD8;
+	border-width: 2px;
+	border-color: black;
+}
+
+form{
+	display:flex;
+	align-items:center;
+}
+.search {
+	margin-bottom: 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+.ftext {
+	width: 88%;
+	padding: 15px 20px;
+	border:none;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+/* Meny */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+  font-weight: bold;
+
+}
+
+.topnav #myLinks {
+	display:none;
+}
+
+.topnav a {
+  color: white;
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block; 
+  text-align: center;
+  height : 50px;
+ 
+}
+
+.topnav a.meny {
+  margin-top: 0.5vw;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  height: 50px;
+  width: 60px;
+  
+}
+
+.topnav a.meny:hover {
+  background-color: #fff;
+  color: black;
+ 
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.meny img {
+  
+  margin-top : 0.5vw;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  height: 45px;
+}
+
+.active {
+	color: white;
+	background-color: #E3000B;
+	font-size: 20px;
+}
+
+/* Search Results*/
+#results{
+	position:relative;
+	padding-left:5vw;
+	margin-left:1vw;
+	display:flex;
+	flex-flow:wrap;
+}
+.box{
+	padding:.5vw;
+	width: 20vw;
+	height:10vw;
+	background-color: #eddddd;
+	border-width: thick;
+	border-style:solid;
+	border-radius:10px;
+	border-color:  #f4b2b1;
+	margin: 0.5vw;
+	overflow: auto;
+}
+
+.box:hover {
+	background-color: white;
+}
+
+/* Bit sidan*/
+
+.bit{
+	padding-top:2vw;
+	padding-bottom:2vw;
+	padding-left:1vw;
+}
+
+.even{
+background-color:#f4b2b1;
+	
+}
+
+.bitContent{
+	display:flex;
+	align-items:center;
+}
+
+#bitbox{
+	margin-top:1vw;	
+
+}
+
+.bitName h3, .bitName p {
+	margin-left:1vw;
+	display:inline;
+	
+}
+
+/*Other pages (about, contact) */
+
+.textbox {
+
+	margin: 5%;
+	padding: 1%;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: thick;
+	border-color: #f4b2b1;
+	background: #eddddd;
+	
+}
+
